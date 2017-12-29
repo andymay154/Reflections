@@ -1,0 +1,64 @@
+Git is a version control platform
+
+Gtihub is a code sharing and collaboration platform.
+
+
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Easy way to find the differences between two files. The windows command prompt 'FC' tool returns the sections that are different between the two files.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It would save a lot of time looking for changes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pro - you keep total control and only commit when ready.
+	- You can keep logical changes together
+	- You can ensure each commit is a completed set of changes
+Con - You might forget to commit
+	- You could have too many commits making it hard to find chanegs
+	- Commit may not be in a very logical place
+
+
+It's usually a good idea to keep commits small. As the diff between two versions gets bigger, it gets harder to understand and less useful.
+A good rule of thumb is to make one commit per logical change. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is a version control system for developers, Google Docs is not.
+Therefore, different purpose for different target audience.
+When writing software it would be common to make changes in multiple files for the new function, so you would need to see the collection of submitted changes in the same commit. Therefore, Git always commits all files in a repository at the same time. If some files don't have any changes, they're still committed, there will just be no difference from the last version.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will show you all of the commits
+git diff will show you the changes between commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Easy to find and undo changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Version control!
+
+
+
+
+Cloning a Repository
+
+To clone a repository, run git clone followed by a space and the repository URL.
+
+Asteroids URL
+
+Use the following url to clone the Asteroids repository: https://github.com/udacity/asteroids.git
