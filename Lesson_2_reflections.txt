@@ -39,3 +39,8 @@ After you have made changes to the files, you will only commit the file that you
 Any other changed files will not be committed until you repeat this process.
 
 
+
+QUESTION: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ANSWER:
+Branches are helpful if you want to test out a new function without interfereing with the main program files. This could also be useful perhaps when more than one developer is working on the code.
