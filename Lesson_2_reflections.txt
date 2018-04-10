@@ -26,3 +26,16 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+
+
+
+
+QUESTION: How can you use the staging area to make sure you have one commit per logical change?
+
+ANSWER:
+After you have made changes to the files, you will only commit the file that you add to the staging area. So.... 1: Make the changes, 2. Add the changed file to the staghing area, 3. Commit the change.
+Any other changed files will not be committed until you repeat this process.
+
+
