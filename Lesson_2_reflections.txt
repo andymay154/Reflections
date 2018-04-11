@@ -44,3 +44,13 @@ QUESTION: What are some situations when branches would be helpful in keeping you
 
 ANSWER:
 Branches are helpful if you want to test out a new function without interfereing with the main program files. This could also be useful perhaps when more than one developer is working on the code.
+
+
+
+QUESTION: How do the diagrams help you visualize the branch structure?
+
+They demonstrate the reachability and flow of branches, along with additional commits that would not show with a git log command. If you want to make a commit from a commit that is not the latest commit on the
+ current branch, then you need to create a new branch name so that it will be reachable. Otherwise, unless you record the commit_id, the commit will be lost / unreachable.
+
+git checkout - b [new_branch_name]
+
