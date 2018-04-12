@@ -49,8 +49,23 @@ Branches are helpful if you want to test out a new function without interfereing
 
 QUESTION: How do the diagrams help you visualize the branch structure?
 
+ANSWER:
 They demonstrate the reachability and flow of branches, along with additional commits that would not show with a git log command. If you want to make a commit from a commit that is not the latest commit on the
  current branch, then you need to create a new branch name so that it will be reachable. Otherwise, unless you record the commit_id, the commit will be lost / unreachable.
 
 git checkout - b [new_branch_name]
+
+
+
+QUESTION: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ANSWER:
+The changes from both development branches are merged together. This creates the possibility to keep a 'master' production line whilst branching off each separate development. This way, developers can work
+on their own separate fixes / updates / changes without interrupting each other and simply merge their updates back to the mast once complete.
+The diagram represents the branches as a separate flow, because they are entirely separate from other branches. Once the branches have been merged, the separate branch is no longer needed and the
+branch name can be removed. Note that the commits from that branch are not deleted, they will appear within the git log having all commits listed in order of date/time of the commit.
+You need to pay attention to this however, since this is not logical for one commit to the next when those commits were made on separate branches.
+
+
+
 
