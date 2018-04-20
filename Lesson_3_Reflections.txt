@@ -20,7 +20,15 @@ You don't want the files you are working on to be changing without your knowlegd
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+
+Forks: A clone within the github hosted environment.
+Clones: A local copy of another repository. Thie could be another local repository or from github.
+Branches: Another version of an existing repository. Branches can be merged etc.
+
+
+
+
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
