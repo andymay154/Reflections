@@ -68,4 +68,32 @@ You need to pay attention to this however, since this is not logical for one com
 
 
 
+QUESTION: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ANSWER:
+Automatic merging can save a lot of time when the changes are quite clearly unrelated and it separate parts of the code. However, when changes are within the same area Git cannot deterime what code should be kept.
+However, it does help by providing all of the changes code in the files waiting to be committed and separated out with special characters so you can easily compare the original and both changed versions.
+You can edit that file, remove the special characters / lines, re-add and then complete the commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
